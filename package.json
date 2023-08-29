@@ -1,0 +1,22 @@
+{
+  "name": "calculator-project",
+  "version": "1.0.0",
+  "description": "Projeto calculadora para o curso de React do zero ao pro - Mod. II",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "deploy": "yarn build && surge"
+  },
+  "repository": "https://github.com/dfsilva-dxp/calc.git",
+  "author": "Daniel Silva <dfsilva.dxp@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^2.9.3",
+    "surge": "^0.23.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.66.1"
+  }
+}
